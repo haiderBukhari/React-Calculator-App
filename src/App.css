@@ -190,6 +190,7 @@ i:active{
   padding: 0px 10px;
   z-index: 103;
 }
+
 @media only screen and (max-width:794px){
   .btn-hide{
     display: block;
@@ -219,6 +220,42 @@ i:active{
   body{
   }
 }
+@media only screen and (max-width:450px){
+  .main-screen{
+    height: 17%;
+  }
+  .bottom-screen{
+    padding-top: 40px;
+    height: 28em;
+    bottom: 14.3%;
+  }
+  .btn-hide{
+    top:34.5%;
+  }
+  .main{
+    height: 71%;
+  }
+  .aside{
+    padding-top: 20px;
+    margin: 39% 0 0 0%;
+    height: 50%;
+  }
+  .element ul{
+    margin-left: 25px;
+  }
+  .element ul li{
+    font-size: 23px;
+    padding: 8px;
+  }
+}
+@media only screen and (min-width:410px) and (max-width:450px){
+  .main{
+    height: 67%;
+  }
+  .bottom-screen{
+    height: 28.6em;
+  }
+}
 @media only screen and (min-width:794px)and (max-width:1000px){
   body{
   }
@@ -241,6 +278,7 @@ i:active{
     margin: 20% 0 0 33.7%;
   }
 }
+
 @media only screen and (min-width:1000px){
   .main-screen{
     width: 27%;
